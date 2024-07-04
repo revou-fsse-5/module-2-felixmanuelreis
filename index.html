@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Waste Management</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header id="top-header">
+        <img src="logo-300.png" srcset="logo-300.png 300w, logo-600.png 600w, logo-1200.jpg 1200w" alt="logo" class="header-image">
+        <h1>Welcome to Grisenfor Plastic Waste Management Center</h1>
+        <nav class="top-nav">
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="asymmetrical-grid">
+                    <div class="grid-item">
+                        <img src="image1.png" alt="Image 1">
+                    </div>
+                    <div class="grid-item">
+                        <img src="image2.jpeg" alt="Image 2">
+                    </div>
+                    <div class="grid-item">
+                        <img src="image3.jpeg" alt="Image 3">
+                    </div>
+                    <div class="grid-item">
+                        <img src="image4.jpg" alt="Image 4">
+                    </div>
+                    <div class="grid-item">
+                        <img src="image5.jpg" alt="Image 5">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Grisenfor plastic waste management center is dedicated to empowering coastal and riverbank communities through sustainable waste management solutions.
+                    </p>
+                    <p>
+                        Based on the innovative waste bank concept, we focus on collecting and recycling plastic trash, fostering environmental stewardship and economic opportunities.
+                    </p>
+                    <p>
+                        By targeting women and young people, we aim to create a cleaner, healthier environment while providing valuable skills and income-generating activities, transforming waste into a resource that benefits both the community and the planet.
+                    </p>
+                    <div class="about-buttons">
+                        <a href="#services" class="button">Check Out Our Services Here</a>
+                        <a href="#contact" class="button">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="service1.jpeg" alt="Service 1">
+                    <p>
+                        Plastic Collection and Recycling: We offer efficient plastic waste collection services from households and businesses along coastal and riverbank communities. Our recycling process ensures that plastic waste is transformed into reusable materials, reducing environmental impact.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="service2.jpg" alt="Service 2">
+                    <p>
+                        Community Education and Awareness: We conduct workshops and educational programs to raise awareness about the importance of plastic waste management. Our initiatives aim to educate community members on how to reduce, reuse, and recycle plastic waste effectively.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="service3.webp" alt="Service 3">
+                    <p>
+                        Women and Youth Empowerment: We provide training and support to women and young people, equipping them with the skills needed to participate in and benefit from our waste management programs. This includes income-generating opportunities through plastic collection and recycling activities.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p>
+                Phone: +670 2345 6789<br>
+                Email: <a href="mailto:info@grisenfor.com">info@grisenfor.com</a><br>
+                Address: 123 Main St, Anytown, Timor-Leste
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Grisenfor Plastic Waste Management Center</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
